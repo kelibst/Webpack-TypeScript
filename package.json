@@ -1,0 +1,30 @@
+{
+  "name": "webpack-typescript",
+  "version": "1.0.0",
+  "description": "A webpack and TypeScript Todo application",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kelibst/Webpack-TypeScript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kelibst/Webpack-TypeScript/issues"
+  },
+  "homepage": "https://github.com/kelibst/Webpack-TypeScript#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0",
+    "sass-loader": "^11.0.1",
+    "ts-loader": "^8.0.16",
+    "webpack": "^5.21.2",
+    "webpack-cli": "^4.5.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  }
+}
